@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Youtube</title>
+</head>
+
+<body>
+    <!-- Header Section
+YouTube Logo: Positioned on the left.
+Search Bar: Centered with a search input field.
+Search Icon: Placed inside or next to the search bar.
+Mic Icon: Next to the search bar for voice search.
+Create Video Button: For video uploads.
+Notification Icon: Displays alerts.
+Profile Picture: Located at the right corner for user identity.
+ -->
+    <header class="header">
+        <a href="#">
+            <img src="./images/logo.png" alt="Youtube Logo" class="youtube-logo">
+        </a>
+        <form class="search-bar">
+            <input type="search" class="search-input" placeholder="Search">
+            <button type="submit" class="search-btn">
+                <img src="./images/magnify.svg" alt="Search Icon">
+            </button>
+            <a href="#" class="mic-cat">
+                <img src="./images/mic.png" alt="Mic Icon" class="mic">
+            </a>
+        </form>
+        <div class="menu-icons">
+            <a href="#">
+                <button class="category">
+                    <img src="./images/plus.png" alt="Create Video Button" style="height: 15px;">
+                    Create
+                </button>
+            </a>
+            <a href="#" class="notification">
+                <img src="./images/bell.svg" alt="Notification Icon">
+            </a>
+            <a href="#" class="profile">
+                <img src="./images/ChannelLogo.png" alt="Profile Picture" class="menu-channel-icon">
+            </a>
+        </div>
+    </header>
+
+    <!-- Categories Section
+Horizontal scrolling categories for filtering videos.
+Includes options like "All," "Trending," "Music," "Gaming," etc.
+ -->
+
+    <div class="categories">
+        <section class="category-section">
+            <button class="category active">All</button>
+            <button class="category">Trending</button>
+            <button class="category">Music</button>
+            <button class="category">Gaming</button>
+            <button class="category">Movies</button>
+            <button class="category">News</button>
+            <button class="category">Fashion</button>
+            <button class="category">Learning</button>
+        </section>
+    </div>
+
+    <!--  Video Section
+Grid layout displaying multiple video thumbnails.
+Each video includes a thumbnail, title, channel name, and views.
+Responsive design to adjust for different screen sizes.
+ -->
+
+    <div class="videos">
+        <section class="video-section">
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:15">
+                    <img src="./images/thumbnail.png" alt="Video Thumbnail" class="thumbnail-image">
+                </a>
+                <div class="video-button-section">
+                    <a href="#">
+                        <img src="./images/ChannelLogo.png" alt="Channel Icon" class="channel-icon">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span >1M views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:15">
+                    <img src="./images/thumbnail.png" alt="Video Thumbnail" class="thumbnail-image">
+                </a>
+                <div class="video-button-section">
+                    <a href="#">
+                        <img src="./images/ChannelLogo.png" alt="Channel Icon" class="channel-icon">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span >1M views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:15">
+                    <img src="./images/thumbnail.png" alt="Video Thumbnail" class="thumbnail-image">
+                </a>
+                <div class="video-button-section">
+                    <a href="#">
+                        <img src="./images/ChannelLogo.png" alt="Channel Icon" class="channel-icon">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span >1M views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:15">
+                    <img src="./images/thumbnail.png" alt="Video Thumbnail" class="thumbnail-image">
+                </a>
+                <div class="video-button-section">
+                    <a href="#">
+                        <img src="./images/ChannelLogo.png" alt="Channel Icon" class="channel-icon">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span >1M views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:15">
+                    <img src="./images/thumbnail.png" alt="Video Thumbnail" class="thumbnail-image">
+                </a>
+                <div class="video-button-section">
+                    <a href="#">
+                        <img src="./images/ChannelLogo.png" alt="Channel Icon" class="channel-icon">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span >1M views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:15">
+                    <img src="./images/thumbnail.png" alt="Video Thumbnail" class="thumbnail-image">
+                </a>
+                <div class="video-button-section">
+                    <a href="#">
+                        <img src="./images/ChannelLogo.png" alt="Channel Icon" class="channel-icon">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span >1M views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:15">
+                    <img src="./images/thumbnail.png" alt="Video Thumbnail" class="thumbnail-image">
+                </a>
+                <div class="video-button-section">
+                    <a href="#">
+                        <img src="./images/ChannelLogo.png" alt="Channel Icon" class="channel-icon">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span >1M views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:15">
+                    <img src="./images/thumbnail.png" alt="Video Thumbnail" class="thumbnail-image">
+                </a>
+                <div class="video-button-section">
+                    <a href="#">
+                        <img src="./images/ChannelLogo.png" alt="Channel Icon" class="channel-icon">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span >1M views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:15">
+                    <img src="./images/thumbnail.png" alt="Video Thumbnail" class="thumbnail-image">
+                </a>
+                <div class="video-button-section">
+                    <a href="#">
+                        <img src="./images/ChannelLogo.png" alt="Channel Icon" class="channel-icon">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span >1M views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:15">
+                    <img src="./images/thumbnail.png" alt="Video Thumbnail" class="thumbnail-image">
+                </a>
+                <div class="video-button-section">
+                    <a href="#">
+                        <img src="./images/ChannelLogo.png" alt="Channel Icon" class="channel-icon">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span >1M views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+            </article>
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:15">
+                    <img src="./images/thumbnail.png" alt="Video Thumbnail" class="thumbnail-image">
+                </a>
+                <div class="video-button-section">
+                    <a href="#">
+                        <img src="./images/ChannelLogo.png" alt="Channel Icon" class="channel-icon">
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span >1M views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+            </article>
+        </section>
+    </div>
+
+</body>
+
+</html>
